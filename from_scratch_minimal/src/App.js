@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import { Typeahead } from 'react-bootstrap-typeahead';
 import logo from './logo.svg';
 import './App.css';

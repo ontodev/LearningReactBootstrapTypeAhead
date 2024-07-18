@@ -1,13 +1,17 @@
+# Configuring a minimal react app from scratch
+
 1. Run the following commands:
 
 ```
 npx create-react-app from_scratch
 cd from_scratch
-npm install --save react-bootstrap-typeahead
+npm install react-bootstrap-typeahead
+npm install bootstrap@v5.3.3
 ```
 
 2. Edit `src/App.js` so that it has the following contents:
 ```
+import 'bootstrap/dist/css/bootstrap.css';
 import { Typeahead } from 'react-bootstrap-typeahead';
 import logo from './logo.svg';
 import './App.css';
