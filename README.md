@@ -1,3 +1,15 @@
+# To run the minimal example
+
+1. Run the following commands:
+```
+cd from_scratch_minimal
+npm install
+npm start
+```
+
+2. Point your browser to `localhost:3000`
+
+
 # Configuring a minimal react app from scratch
 
 1. Run the following commands:
