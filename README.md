@@ -4,7 +4,9 @@
 ```
 cd from_scratch_minimal
 npm install
-npm start
+npm run build
+npm install -g serve
+serve -s build
 ```
 
 2. Point your browser to `localhost:3000`
@@ -19,6 +21,7 @@ npx create-react-app from_scratch
 cd from_scratch
 npm install react-bootstrap-typeahead
 npm install bootstrap@v5.3.3
+npm install
 ```
 
 2. Edit `src/App.js` so that it has the following contents:
@@ -58,4 +61,4 @@ function App() {
 export default App;
 ```
 
-3. Run `npm start` and then in your browser navigate to localhost:3000 (in fact npm should open your page automatically but you can navigate there manually in case it does not).
+3. To build and deploy, see the above section on how to do this for the minimal example.
