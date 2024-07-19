@@ -1,4 +1,4 @@
-# To run the minimal example
+# To run the minimal example using Flask and Python
 
 1. Run the following commands:
 ```
