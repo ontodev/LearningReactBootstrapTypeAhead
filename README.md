@@ -2,8 +2,10 @@
 
 1. Run the following commands:
 ```
+python3 -m venv .venv
 . .venv/bin/activate
 cd from_scratch_minimal
+pip3 install -r requirements.txt
 npm install
 npm run build
 make serve
