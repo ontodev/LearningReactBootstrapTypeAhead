@@ -2,11 +2,11 @@
 
 1. Run the following commands:
 ```
+. .venv/bin/activate
 cd from_scratch_minimal
 npm install
 npm run build
-npm install -g serve
-serve -s build
+make serve
 ```
 
 2. Point your browser to `localhost:3000`
