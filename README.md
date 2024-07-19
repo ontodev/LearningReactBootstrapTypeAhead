@@ -63,4 +63,4 @@ function App() {
 export default App;
 ```
 
-3. To build and deploy, see the above section on how to do this for the minimal example.
+3. To build and deploy, see the above section on how to do this for the minimal example. You will need to copy `Makefile` and `main.py` from `from_scratch_minimal/` to your new directory (which in this example is `from_scratch/`).
